@@ -1,0 +1,13 @@
+Output of NLP Homework 2:
+
+HMM:
+the planet jupiter and its moons are in effect a mini solar system .
+['DETERMINER', 'NOUN', 'NOUN', 'CONJUNCTION', 'PRONOUN', 'VERB', 'VERB', 'PREPOSITION', 'NOUN', 'DETERMINER', 'ADJECTIVE', 'ADJECTIVE', 'NOUN', 'PUNCT']
+computers process programs accurately .
+['DETERMINER', 'NOUN', 'NOUN', 'ADVERB', 'PUNCT']
+
+RNN:
+the planet jupiter and its moons are in effect a mini solar system .
+['DETERMINER', 'NOUN', 'NOUN', 'CONJUNCTION', 'PRONOUN', 'NOUN', 'VERB', 'PREPOSITION', 'NOUN', 'DETERMINER', 'NOUN', 'ADJECTIVE', 'NOUN', 'PUNCT']
+computers process programs accurately .
+['VERB', 'NOUN', 'NOUN', 'ADVERB', 'PUNCT']

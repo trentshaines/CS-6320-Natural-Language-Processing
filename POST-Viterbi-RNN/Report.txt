@@ -1,0 +1,14 @@
+Both the HMM and RNN had a few mistakes while tagging both of the sentences. Neither model performed much better than the other, although the RNN had more room
+for improvement. For an example of the shortcomings of the taggings, both models failed to tag "computers" in the second sentence as a noun.
+The error rates were still relatively low, as a strong majority of all the words were tagged correctly. One thing to note was that the accuracy during the training
+of the the RNN was a bit inaccurate as the accuracy was including the PAD results, thus inflating it. I belive that there may have been some overfitting of the data,
+as the training results were reporting near 100% accuracy.
+
+I learned a lot during this project. For one, I learned a bit more about the architecture that goes into modeling neural networks. In particular, I enjoyed learning
+about the purpose of each layer within the model. Additionally, I learned how to use important libraries such as keras. 
+I also learned about Colab which I found to be a very useful development tool. There were also some mistakes that I learned from. For example, during my implementation
+of the first part of the project, at first I was not converting each word to uppercase in order to avoid case sensitivity. This resulted in some very weird classications, 
+such as jupiter as PUNCT. I then learned that I need to take into account many different factors whenever I am interacting with a dataset that is not comprehensive (the 
+corpus only had instances of "Jupiter", not "jupiter". I liked that I had to implement my own version of the reverse of to_categorical, because it helped me learn a 
+deeper understanding of the function. To summarize, I learned how to think of architecture of network models, use important libraries, and think critically about what data
+I am taking as input, transforming, and outputting.
